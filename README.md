@@ -48,4 +48,11 @@
 - ---------------------------------------------
 ### State-action value function
 
--
+- To me this sounds more important than state value function as this time we focus on the actions of being in a specific state
+- Here it is important to know that when we are in state s, we may have two possible action a1 and a2. When you choose a1, we go to state s'. From here we may follow a stochastic policy to get to the destination. If we use a2, we get to s" state and use another policy from that point. So what I want to say here is, the first step (selecting a1 or a2) does not following specific policy, we just select a1 and then we get to the next state. After that we follow a policy
+  
+  ![image](https://github.com/user-attachments/assets/2d058819-9ea7-4ccc-b893-0f0eef24b1a6)
+- We also have an optimal satte action value function:
+
+- ![image](https://github.com/user-attachments/assets/7ed36bd5-3937-43ac-9bcc-d4352e917d49)
+
