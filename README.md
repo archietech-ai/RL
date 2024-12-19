@@ -31,7 +31,7 @@
 
 ------------------------------
 
-### v(s)
+### v(s)   value function or state value function
 - value function or state value function
 - It is a function that show the value of being in a state. It's like a credit of that state. Do not forget that we do not always use the same episode, so if you are in a state and take episod 1 to get to the destination, you may get +40 but next time that you use the same state as start point and go to end state you may get +10. Why? becuase you face a sochastic policy. We have an stochastic environment. Nothing is deterministic
 - So we calculate the value by Expected value (mean). We calcualte the expected values we get if we start from state S and try it by many episodes 
@@ -43,7 +43,9 @@
 
     ![image](https://github.com/user-attachments/assets/0232b0ae-d0ed-4098-bfa6-6cdea2bb77a7)
 
-    - 
+- The state value function does not care too much about the policies and actions in that policy, all it cares is the value of that state. In the next function, we change the focus on the action we perform being in that state and the value of that action.
 
+- ---------------------------------------------
+### State-action value function
 
-- 
+-
