@@ -27,5 +27,7 @@
 - In an episode, we pass through many states and we get rewards (return) by going through those states. In each state we get a reward. So to find the optimial policy we want to maximize the sum of those rewards in an episode
 - The discount factor (between 0 and 1) allows us to not get infinite return. If we use smaller discount factor, we care more about immidiate rewards. When we use larger discount factors, we include more future rewards in the total return. When discount factor is 0, then that means we just care about next first reward and nothing else.
 - Why do we care about future rewards?  Becuase in many cases, you care about final results not the intermidiate and more immidiate rewards
+  ![image](https://github.com/user-attachments/assets/4df6b941-2a02-4bae-bc8c-90eb1f7e2fc0)
+
 ------------------------------
 
