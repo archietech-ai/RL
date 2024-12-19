@@ -56,3 +56,15 @@
 
 - ![image](https://github.com/user-attachments/assets/7ed36bd5-3937-43ac-9bcc-d4352e917d49)
 
+----------------------------------------------------
+
+### Testing Frozen Lake code with OpenAI Gym
+
+![image](https://github.com/user-attachments/assets/ae2cdfd0-d028-459f-9e22-216dec99184c)
+
+print (env.P[3][1])  ---> [(0.3333333333333333, 2, 0.0, False), (0.3333333333333333, 7, 0.0, True), (0.3333333333333333, 3, 0.0, False)]
+
+
+
+
+
