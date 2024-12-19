@@ -1,6 +1,6 @@
 # My RL Notes
 
-### MDP
+### MDP and Terminologies
 - We use MDP to model states in RL problems
 - MP (Markov Process) --> when the nex step only depends on the last state only
 - MRP (We add reward to MP)
@@ -24,5 +24,8 @@
 - Having a stochastic policy is very important in RL as that is the way the agent learns the best action. Do not forget that at the beginning the agent does not know which action is the best to take in a state, so having a way to let an agent to see all possible actions (by introducing an element of randomness) is the best way to try before an agent selects the best action being in a state
 - Episode (Trajectory) --> Means one round of going from start to the end. We usually run many many episode to see all cases to find the best policy
 - Task types from episode viewpoint: we can have Episodic tasks (meaning we have a terminal state) or continuous (no terminal state, like robots at home)
-- 
-- 
+- In an episode, we pass through many states and we get rewards (return) by going through those states. In each state we get a reward. So to find the optimial policy we want to maximize the sum of those rewards in an episode
+- The discount factor (between 0 and 1) allows us to not get infinite return. If we use smaller discount factor, we care more about immidiate rewards. When we use larger discount factors, we include more future rewards in the total return. When discount factor is 0, then that means we just care about next first reward and nothing else.
+- Why do we care about future rewards?  Becuase in many cases, you care about final results not the intermidiate and more immidiate rewards
+------------------------------
+
