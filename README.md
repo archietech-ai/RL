@@ -31,3 +31,19 @@
 
 ------------------------------
 
+### v(s)
+- value function or state value function
+- It is a function that show the value of being in a state. It's like a credit of that state. Do not forget that we do not always use the same episode, so if you are in a state and take episod 1 to get to the destination, you may get +40 but next time that you use the same state as start point and go to end state you may get +10. Why? becuase you face a sochastic policy. We have an stochastic environment. Nothing is deterministic
+- So we calculate the value by Expected value (mean). We calcualte the expected values we get if we start from state S and try it by many episodes 
+  
+  ![image](https://github.com/user-attachments/assets/08abdf8c-8333-4ab5-93a7-d526f16cef76)
+
+  - If the state space is small we can show a state values in a table
+  - So the "best" value of being in a state is defined as v*:
+
+    ![image](https://github.com/user-attachments/assets/0232b0ae-d0ed-4098-bfa6-6cdea2bb77a7)
+
+    - 
+
+
+- 
