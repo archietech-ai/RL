@@ -62,7 +62,22 @@
 
 ![image](https://github.com/user-attachments/assets/ae2cdfd0-d028-459f-9e22-216dec99184c)
 
+Action Mapping
+0: Left
+1: Down
+2: Right
+3: Up
+
+
 print (env.P[3][1])  ---> [(0.3333333333333333, 2, 0.0, False), (0.3333333333333333, 7, 0.0, True), (0.3333333333333333, 3, 0.0, False)]
+
+The above output is the "transition probability" information for state 3 when taking action 1 (Down):
+
+(prob, next_state, reward, done):
+prob: Probability of transitioning to next_state.
+next_state: The state you transition to.
+reward: Reward received after taking the action.
+done: Whether the episode ends after this transition.
 
 
 
