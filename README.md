@@ -87,8 +87,19 @@ done: Whether the episode ends after this transition (meaning we end of one of t
 
 
 Now that we have transition probability matrix we should introduce actions to generate episodes. To generate episode we need to perform a "step":
+
 env.step(2) --> Meaning at the current state, do action 2, meaning go to right. It may not go to right neccessary as we are running in a stochastic env.
-The output of env.step(2) is a tuple with 4 components: (where you landed i.e. next state, what reward you get, do you land in a terminal state, some debugging info)
+
+The output of env.step(2) is a tuple with 4 components: (where you landed i.e. next state, 
+                                                          what reward you get, 
+                                                          do you land in a terminal state, 
+                                                          some debugging info)
+
+
+![image](https://github.com/user-attachments/assets/8ea08396-1f77-4d26-b147-fb2d1137315f)
+
+![image](https://github.com/user-attachments/assets/bca585ce-de9a-4b81-b4ce-8747c640791e)
+
 
 
 
