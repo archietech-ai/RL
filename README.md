@@ -74,10 +74,23 @@ print (env.P[3][1])  ---> [(0.3333333333333333, 2, 0.0, False), (0.3333333333333
 The above output is the "transition probability" information for state 3 when taking action 1 (Down):
 
 (prob, next_state, reward, done):
+
 prob: Probability of transitioning to next_state.
+
 next_state: The state you transition to.
+
 reward: Reward received after taking the action.
-done: Whether the episode ends after this transition.
+
+done: Whether the episode ends after this transition (meaning we end of one of those cells that is terminal state).
+
+![image](https://github.com/user-attachments/assets/6f03d163-afad-47be-923c-11fdced569ba)
+
+
+Now that we have transition probability matrix we should introduce actions to generate episodes. To generate episode we need to perform a "step":
+env.step(2) --> Meaning at the current state, do action 2, meaning go to right. It may not go to right neccessary as we are running in a stochastic env.
+The output of env.step(2) is a tuple with 4 components: (where you landed i.e. next state, what reward you get, do you land in a terminal state, some debugging info)
+
+
 
 
 
