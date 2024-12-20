@@ -117,9 +117,18 @@ truncated: A boolean indicating if the episode was truncated (e.g., time limit).
 info: Additional metadata
 
 
-Now if we try to genarate episodes:
+Now rather than we click on thr run bottom to do an action, we can write a loop and say do action until reaching a terminal state:
 
 ![image](https://github.com/user-attachments/assets/7abbde6d-7039-429b-b704-eab2b40aece7)
+
+
+And here are output samples:
+
+![image](https://github.com/user-attachments/assets/292a0f2a-d42d-4e9a-ac6c-71977560f724)
+
+![image](https://github.com/user-attachments/assets/ccfe3418-31ec-4f7c-855e-febf51e3ee07)
+
+![image](https://github.com/user-attachments/assets/516f4a84-5fba-41b1-bb6e-45c7bfd70cf6)
 
 
 
