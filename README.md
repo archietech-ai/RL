@@ -91,8 +91,11 @@ Now that we have transition probability matrix we should introduce actions to ge
 env.step(2) --> Meaning at the current state, do action 2, meaning go to right. It may not go to right neccessary as we are running in a stochastic env.
 
 The output of env.step(2) is a tuple with 4 components: (where you landed i.e. next state, 
+
                                                           what reward you get, 
+                                                          
                                                           do you land in a terminal state, 
+                                                          
                                                           some debugging info)
 
 
@@ -101,6 +104,22 @@ The output of env.step(2) is a tuple with 4 components: (where you landed i.e. n
 ![image](https://github.com/user-attachments/assets/bca585ce-de9a-4b81-b4ce-8747c640791e)
 
 
+In gymnasium's step() method returns five values:
+
+next_state: The next state.
+
+reward: The reward obtained from the action.
+
+terminated: A boolean indicating if the episode has ended normally.
+
+truncated: A boolean indicating if the episode was truncated (e.g., time limit).
+
+info: Additional metadata
+
+
+Now if we try to genarate episodes:
+
+![image](https://github.com/user-attachments/assets/7abbde6d-7039-429b-b704-eab2b40aece7)
 
 
 
