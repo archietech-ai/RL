@@ -2,7 +2,7 @@
 
 ### MDP and Terminologies
 - We use MDP to model states in RL problems
-- MP (Markov Process) --> when the nex step only depends on the last state only
+- MP (Markov Process) --> when the next step only depends on the last state only
 - MRP (We add reward to MP)
   When we introduce reward to the MP, a new concept called Gain which is based on return values appears. We will use it later:
   
